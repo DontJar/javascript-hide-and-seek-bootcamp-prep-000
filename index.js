@@ -1,5 +1,5 @@
 function getFirstSelector(selector) {
-  return selector;
+  return document.querySelector(selector);
 
 
 //accepts a selector and returns first elements that match
