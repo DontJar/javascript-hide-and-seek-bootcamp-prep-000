@@ -9,6 +9,8 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n){
+  let up = document.querySelector('#app' .)
+  
 //increases the ranks in all of the .ranked-list 's' by 'n'
 
 }
