@@ -10,13 +10,9 @@ function nestedTarget() {
 
 function increaseRankBy(n){
   const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
-  for (let i = 1; i < lis.length; i++) {
-  lis.innerHTML = (lis + n).toString()
+  for (let i = 0; i < lis.length; i++) {
+    lis.innerHTML = (lis + n).toString()
 }
-  
-  
-//increases the ranks in all of the .ranked-list 's' by 'n'
-
 }
 
 function deepestChird() {
