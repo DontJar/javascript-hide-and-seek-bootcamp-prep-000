@@ -4,6 +4,7 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
+  return document.
 //pulls a .target out of #nested
 
 }
