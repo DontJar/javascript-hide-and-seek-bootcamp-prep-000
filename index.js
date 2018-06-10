@@ -1,12 +1,9 @@
 function getFirstSelector(selector) {
   return document.querySelector(selector);
 
-
-//accepts a selector and returns first elements that match
-
 }
 
-function nestedTarger() {
+function nestedTarget() {
 //pulls a .target out of #nested
 
 }
