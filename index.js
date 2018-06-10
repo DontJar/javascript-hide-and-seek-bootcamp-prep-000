@@ -1,5 +1,5 @@
 function getFirstSelector(selector) {
-  return 
+  return selector;
 
 
 //accepts a selector and returns first elements that match
