@@ -1,4 +1,7 @@
 function getFirstSelector(selector) {
+  return 
+
+
 //accepts a selector and returns first elements that match
 
 }
