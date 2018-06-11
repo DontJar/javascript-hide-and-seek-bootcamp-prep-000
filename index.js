@@ -16,6 +16,8 @@ function increaseRankBy(n){
 }
 
 function deepestChird() {
+
+
 //pulls out the most deeply nested child from 'div#grand-node'
   
 }
