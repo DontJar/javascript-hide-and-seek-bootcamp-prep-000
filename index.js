@@ -16,11 +16,14 @@ function increaseRankBy(n){
 }
 
 function deepestChild() {
-  let current = document.querySelectorAll('#grand-node')
-  let next = []
-  while (current){
-    if ()
-  }
+  document.querySelector('#grand-node div div div div')}
+
+
+//  let current = document.querySelectorAll('#grand-node')
+//  let next = []
+// while (current){
+//    if ()
+//  }
 
 
 //  
@@ -29,6 +32,3 @@ function deepestChild() {
 //  return nodes[nodes.length-1];
 
 //pulls out the most deeply nested child from 'div#grand-node'
-
-  
-}
