@@ -17,7 +17,7 @@ function increaseRankBy(n){
 
 function deepestChild() {
   return document.querySelector('#grand-node div div div div')}
-
+// I dont like this solution.  Feels like cheating.
 
 //  let current = document.querySelectorAll('#grand-node')
 //  let next = []
