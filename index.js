@@ -29,7 +29,7 @@ function deepestChild() {
   }
 
   return node
-}
+
 */
 
 let current = document.querySelectorAll('#grand-node')
@@ -39,11 +39,4 @@ while (current) {
     next = current.children[0]
   }
   return current
-
-
-//  
-//var nodes = document.querySelectorAll('#grand-node');
-//  if(!nodes.length) return false;
-//  return nodes[nodes.length-1];
-
-//pulls out the most deeply nested child from 'div#grand-node'
+}
