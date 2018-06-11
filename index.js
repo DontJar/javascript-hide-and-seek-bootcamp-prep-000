@@ -16,7 +16,7 @@ function increaseRankBy(n){
 }
 
 function deepestChird() {
-  var nodes = document.querySelectorAll(`#divgrand-node`);
+  var nodes = document.querySelectorAll(`#grand-node`);
   if(!nodes.length) return false;
   return nodes[nodes.length-1];
 
