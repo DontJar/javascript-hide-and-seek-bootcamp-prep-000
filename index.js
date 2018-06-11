@@ -9,15 +9,15 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n){
-  let newRank = document.getElementById('app').querySelectorAll('ul.ranked-list li')
+  let newRank = document.querySelectorAll('ul.ranked-list li')
   for (let i = 0; i < newRank.length; i++) {
-    newRank[i].innerHTML = parseInt(newRank[i]).toString
+    newRank[i].innerHTML = parseInt(newRank[i]) + n
 }
 }
 
 
 
-
+/*
 function increaseRankBy(n) {
   const rankedLists = document.querySelectorAll('.ranked-list')
 
@@ -26,7 +26,7 @@ function increaseRankBy(n) {
 
     for (let j = 0, k = children.length; j < k; j++) {
       children[j].innerHTML = parseInt(children[j].innerHTML) + n
-
+*/
 
 
 function deepestChird() {
