@@ -34,7 +34,7 @@ function deepestChild() {
 
 let current = document.querySelectorAll('#grand-node')
 let next = current.children[0]
-while (current) {
+while (next) {
     current = next
     next = current.children[0]
   }
