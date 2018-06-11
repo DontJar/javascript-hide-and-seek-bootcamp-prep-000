@@ -16,10 +16,15 @@ function increaseRankBy(n){
 }
 
 function deepestChild() {
-  var nodes = document.querySelectorAll(`#grand-node .div`);
+//  let current = document.querySelectorAll('#grand-node')
+
+
+  
+var nodes = document.querySelectorAll('#grand-node .div');
   if(!nodes.length) return false;
   return nodes[nodes.length-1];
 
 //pulls out the most deeply nested child from 'div#grand-node'
+
   
 }
